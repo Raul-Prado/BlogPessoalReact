@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../../contexts/AuthContext';
 import Postagem from '../../../model/Postagem';
 import { buscar } from '../../../services/Service';
-import CardPostagem from '../../postagens/cardPostagem/cardPostagem';
+import CardPostagem from '../../postagens/cardPostagem/CardPostagem';
 import { toastAlerta } from '../../../util/toastAlerta';
 
 function ListaPostagens() {
